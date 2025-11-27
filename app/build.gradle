@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace "com.example.Varsani"   // 👈 this replaces the package attribute
+    namespace "com.example.Varsani"  // 👈 this replaces the package attribute
     compileSdk 34
 
     defaultConfig {
