@@ -4,7 +4,7 @@ public class Urls {
 
 
    public static String ipAddress = "http://102.217.158.185/lotusfertility/";
-    //public static String ipAddress = "http://192.168.90.205/lotusfertility/";
+    //public static String ipAddress = "http://192.168.99.205/lotusfertility/";
 
     private static final String ROOT_URL =ipAddress+ "android_files/";
     public static final String ROOT_URL_IMAGES =ipAddress+"upload_products/";
