@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Staff.Store_mrg.MedicineStock"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Store_mrg.RequestMedicine"
+            android:exported="false" />
+        <activity
+            android:name=".IntendedParent.TrackCheckups"
+            android:exported="false" />
+        <activity
+            android:name=".Clients.CheckupItems"
+            android:exported="false" />
+        <activity
+            android:name=".Clients.ScheduledCheckups"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Doctor.FirstCheckup"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Doctor.Checkups"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Store_mrg.ApproveMedicine"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Store_mrg.RequestedMedicine"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Store_mrg.ApproveEquipments"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Store_mrg.RequestedEquipments"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Technician.DonorTests"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Doctor.NewDonors"
+            android:exported="false" />
+        <activity
+            android:name=".Donor.TrackMyApplication"
+            android:exported="false" />
+        <activity
+            android:name=".IntendedParent.PaymentReceipt"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Pharmacist.PrescriptionItems"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Pharmacist.NewPrescriptions"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Doctor.ConductSurrogacy"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Doctor.PendingSurrogacy"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.LabTech.FertilityItems"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.LabTech.FertilityTests"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Doctor.SurrogacyDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Doctor.ApprovedSurrogacy"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Attorney.AppointmentItems"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Attorney.NewAppointments"
+            android:exported="false" />
+        <activity
+            android:name=".IntendedParent.BookingItems"
+            android:exported="false" />
+        <activity
+            android:name=".IntendedParent.MyBookings"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.LabTech.MedicalItems"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.LabTech.MedicalTests"
+            android:exported="false" />
+        <activity
+            android:name=".Clients.ContactUs"
+            android:exported="false" />
+        <activity
+            android:name=".Clients.ResetPass"
+            android:exported="false" />
+        <activity
+            android:name=".Clients.Forgotpass"
+            android:exported="false" />
+        <activity
+            android:name=".Clients.SupplierLogin"
+            android:exported="false" />
+        <activity
+            android:name=".Clients.CompletedServiceItems"
+            android:exported="false" />
+        <activity
+            android:name=".Clients.CompletedServices"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Store_mrg.ApproveMaterials"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Store_mrg.RequestedMaterials"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Finance.PaySupplier"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Finance.SupplyPayments"
+            android:exported="false"
+            android:label="@string/title_activity_supplier_payments"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Staff.Store_mrg.ApproveSupply"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Technician.ServiceItems"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Staff.Finance.ApprovedServPayments"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Finance.PaymentDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Finance.NewServicePayments"
+            android:exported="false" />
+        <activity
+            android:name=".Clients.InvoiceItems"
+            android:exported="false" />
+        <activity
+            android:name=".Clients.Invoice"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Technician.VisitItems"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Doctor.SurrogateDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Doctor.NewSurrogates"
+            android:exported="false" />
+        <activity
+            android:name=".Clients.ApplicationForm"
+            android:exported="false" />
+        <activity
+            android:name=".Clients.ServiceItems"
+            android:exported="false" />
+        <activity
+            android:name=".Clients.SingleService"
+            android:exported="false" />
+        <activity
+            android:name=".Suppliers.Accept"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Stafffeedback"
+            android:exported="false" />
+        <activity
+            android:name=".Suppliers.MyRequests"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Store_mrg.RequestItems"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Store_mrg.RequestSupplier"
+            android:exported="false" />
+        <activity
+            android:name=".Suppliers.Requests"
+            android:exported="false" />
+        <activity
+            android:name=".Suppliers.RegSuppliers"
+            android:exported="false" />
+        <activity android:name=".Clients.Help_in" />
+        <activity android:name=".Clients.EndFeedback" />
+        <activity android:name=".Clients.PrintPdf" />
+        <activity android:name=".Clients.About" />
+        <activity android:name=".Clients.Help" />
+        <activity android:name=".Staff.SelectLogin" />
+        <activity
+            android:name=".Staff.Store_mrg.AddStock"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".Staff.Store_mrg.ViewStock" />
+        <activity
+            android:name=".Staff.Dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Staff.Finance.ApprovedOrders" />
+        <activity android:name=".Staff.Finance.OrderDetails" />
+        <activity android:name=".Staff.Finance.NewOrders" />
+        <activity android:name=".Staff.StaffLogin" />
+        <activity android:name=".Clients.OrderItems" />
+        <activity android:name=".Clients.Search" />
+        <activity android:name=".Clients.SingleItem" />
+        <activity android:name=".Clients.EditShippingDtls" />
+        <activity android:name=".Clients.ShippingDetails" />
+        <activity android:name=".Clients.Feedback" />
+        <activity android:name=".Clients.CheckOut" />
+        <activity android:name=".Clients.CartItems" />
+        <activity android:name=".Clients.UpdateProfile" />
+        <activity android:name=".Clients.MyApplication" />
+        <activity android:name=".Clients.Profile" />
+        <activity
+            android:name=".Clients.Login"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Clients.Register"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+    </application>
+
+</manifest>

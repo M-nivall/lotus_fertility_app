@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Lotus Fertility</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Lotusfertility</string>
+    <string name="nav_header_subtitle">Lotusfertility</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="home_second">Home Second</string>
+    <string name="logout">Logout</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="orders">Orders</string>
+    <string name="feedback">Feedback</string>
+    <string name="staff_login">Login</string>
+    <string name="about">
+At Lotus Fertility, we understand that the journey to parenthood can be challenging and emotionally overwhelming.
+        We are here to provide you with comprehensive solutions and support, empowering you to fulfill your dreams of having a family.
+        With our range of services, including surrogacy and donor programs, as well as consultancyon other fertility services, we are committed to helping you navigate every step of the way.
+
+    </string>
+
+
+    <string name="help">
+        <b>1.	Help</b>
+
+    </string>
+
+    <string-array name="recipient">
+        <item>Select Recipient</item>
+        <item>Doctor</item>
+        <item>Finance</item>
+        <item>Lab Technician</item>
+        <item>Pharmacist</item>
+    </string-array>
+
+
+    <string-array name="products">
+        <item>Select item</item>
+
+        <item>Centrifuge</item>
+        <item>UltraSound Gel</item>
+        <item>Test Kit</item>
+        <item>Vacutainer</item>
+        <item>Stereomicroscope</item>
+        <item>Crossmatching</item>
+    </string-array>
+
+    <string-array name="medicine">
+        <item>Select item</item>
+
+        <item>Ibuprofen</item>
+        <item>Paracetamol</item>
+        <item>Naproxen</item>
+        <item>Acetaminophen</item>
+        <item>Fluoxetine</item>
+        <item>Estrogen</item>
+    </string-array>
+    <string-array name="blood_group">
+        <item>Select Blood Group</item>
+
+        <item>A+</item>
+        <item>B+</item>
+        <item>O+</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>A-</item>
+        <item>B-</item>
+    </string-array>
+
+    <string-array name="user_roles">
+        <item>Surrogate Mother</item>
+        <item>Intended Parents</item>
+        <item>Egg Donor</item>
+    </string-array>
+
+    <string-array name="marital_status">
+        <item>Single</item>
+        <item>Married</item>
+    </string-array>
+
+    <string-array name="education_level">
+        <item>Select Education Level</item>
+
+        <item>Primary Level</item>
+        <item>High School Level</item>
+        <item>University Level</item>
+    </string-array>
+
+    <string name="title_activity_supplier_payments">SupplierPayments</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>

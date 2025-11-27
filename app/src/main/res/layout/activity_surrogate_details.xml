@@ -1,0 +1,223 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Staff.Doctor.SurrogateDetails"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="16dp">
+
+        <!-- Card Section for Text Details -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txv_role"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Surrogate Details"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorBlack"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:id="@+id/tv_fullName"
+                    android:text="Name"
+                    style="@style/DetailTextStyle" />
+
+                <TextView
+                    android:id="@+id/tv_surrogateId"
+                    android:text="Surrogate No"
+                    style="@style/DetailTextStyle" />
+
+                <TextView
+                    android:id="@+id/tv_height"
+                    android:text="Height"
+                    style="@style/DetailTextStyle" />
+
+                <TextView
+                    android:id="@+id/tv_weight"
+                    android:text="Weight"
+                    style="@style/DetailTextStyle" />
+
+                <TextView
+                    android:id="@+id/tv_bloodType"
+                    android:text="Blood Type"
+                    style="@style/DetailTextStyle" />
+
+                <TextView
+                    android:id="@+id/tv_medication"
+                    android:text="Medication"
+                    style="@style/DetailTextStyle" />
+
+                <TextView
+                    android:id="@+id/tv_maritalStatus"
+                    android:text="Marital Status"
+                    style="@style/DetailTextStyle" />
+
+                <TextView
+                    android:id="@+id/tv_education"
+                    android:text="Education Level"
+                    style="@style/DetailTextStyle" />
+
+                <TextView
+                    android:id="@+id/tv_numChildren"
+                    android:text="Number of Children"
+                    style="@style/DetailTextStyle" />
+
+                <TextView
+                    android:id="@+id/tv_phoneNo"
+                    android:text="Phone No:"
+                    style="@style/DetailTextStyle" />
+
+                <TextView
+                    android:id="@+id/tv_email"
+                    android:text="Email"
+                    style="@style/DetailTextStyle" />
+
+                <TextView
+                    android:id="@+id/tv_dateBirth"
+                    android:text="Date of Birth"
+                    style="@style/DetailTextStyle" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Card Section for Additional Images -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Supporting Documents"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorBlack"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="8dp" />
+
+                <Button
+                    android:id="@+id/btn_medicalPdf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="View Medical PDF" />
+
+                <Button
+                    android:id="@+id/btn_nationalId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="View National ID" />
+                <Button
+                    android:id="@+id/btn_profilePic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="View Profile Pic" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <!-- New Section for Medical Date and Lab Technician -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Schedule Medical Date"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorBlack"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="8dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Select Date:"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorBlack"
+                    android:paddingBottom="2dp"/>
+
+                <EditText
+                    android:id="@+id/et_medicalDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Select Medical Date"
+                    android:focusable="false"
+                    android:clickable="true" />
+
+                <!-- Lab Technician Assignment -->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Assign Lab Technician:"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorBlack"
+                    android:paddingBottom="4dp"/>
+
+                <EditText
+                    android:id="@+id/et_labTechnician"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Select Lab Technician"
+                    android:textSize="16sp"
+                    android:padding="12dp"
+                    android:background="@drawable/edittext_background1"
+                    android:drawableStart="@drawable/ic_dropdown"
+                    android:focusable="false"
+                    android:clickable="true"
+                    android:inputType="none"/>
+
+                <!-- Approve Button -->
+                <Button
+                    android:id="@+id/btn_approve"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="APPROVE"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="16dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>
