@@ -55,8 +55,6 @@ public class AdapterDonors extends RecyclerView.Adapter<RecyclerView.ViewHolder>
     private AdapterDonors.OnItemClickListener mOnItemClickListener;
     private AdapterDonors.OnMoreButtonClickListener onMoreButtonClickListener;
 
-    //
-
     private SessionHandler session;
     private UserModel user;
     private String clientId = "";
