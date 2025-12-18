@@ -41,7 +41,6 @@ public class TrackCheckups extends AppCompatActivity {
     private RecyclerView recyclerView;
     private ProgressBar progressBar;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
