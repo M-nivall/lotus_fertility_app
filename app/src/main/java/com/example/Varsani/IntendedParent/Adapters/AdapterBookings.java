@@ -29,8 +29,6 @@ public class AdapterBookings extends RecyclerView.Adapter<RecyclerView.ViewHolde
 //    private OnItemClickListener mOnItemClickListener;
 //    private OnMoreButtonClickListener onMoreButtonClickListener;
 
-    //
-
     private SessionHandler session;
     private UserModel user;
     private String clientId = "";
