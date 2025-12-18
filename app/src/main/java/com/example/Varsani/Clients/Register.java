@@ -162,6 +162,7 @@ public class Register extends AppCompatActivity {
                 getAlertCounties(v);
             }
         });
+
         et_town.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
