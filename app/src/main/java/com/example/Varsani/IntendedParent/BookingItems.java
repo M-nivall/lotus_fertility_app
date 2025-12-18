@@ -146,6 +146,7 @@ public class BookingItems extends AppCompatActivity {
                 getAlertInstructors(v);
             }
         });
+
         btnProceed.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
