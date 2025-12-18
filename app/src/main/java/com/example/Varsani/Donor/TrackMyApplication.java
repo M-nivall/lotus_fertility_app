@@ -49,7 +49,6 @@ public class TrackMyApplication extends AppCompatActivity {
 
         layout_medical_date.setVisibility(View.GONE);
 
-
         myApplication();
     }
     @Override
