@@ -90,6 +90,7 @@ public class Login extends AppCompatActivity {
                 startActivity(in);
             }
         });
+
         txv_register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
