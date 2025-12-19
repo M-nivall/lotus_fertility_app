@@ -162,6 +162,7 @@ public class Login extends AppCompatActivity {
             return;
 
         }
+
         if (TextUtils.isEmpty(select)) {
             Toast.makeText(getApplicationContext(), "Select an option", Toast.LENGTH_SHORT).show();
             btn_login.setVisibility(View.VISIBLE);
