@@ -144,7 +144,6 @@ public class CheckOut extends AppCompatActivity {
         txv_service_fee.setText("Service Fee: " + service_fee);
         txv_total_fee.setText("Total Fee: " + total_fee);
 
-
         edt_date_birth.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
