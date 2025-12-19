@@ -126,7 +126,6 @@ public class CheckOut extends AppCompatActivity {
 
         edt_payment_code.setFilters(new InputFilter[] {new InputFilter.AllCaps()});
 
-
         Intent intent = getIntent();
 
         surrogateID = intent.getStringExtra("surrogateID");
