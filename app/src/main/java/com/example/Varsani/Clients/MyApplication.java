@@ -41,7 +41,6 @@ public class MyApplication extends AppCompatActivity {
     private TextView tv_status_value,tv_medical_date_value;
     private LinearLayout layout_medical_date;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
