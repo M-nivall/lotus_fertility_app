@@ -64,6 +64,7 @@ public class ScheduledCheckups extends AppCompatActivity {
         recyclerView.setLayoutManager(mLayoutManager);
 
         checkup();
+
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
