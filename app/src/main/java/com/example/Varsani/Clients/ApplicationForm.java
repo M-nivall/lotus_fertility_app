@@ -65,7 +65,6 @@ import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
 
-
 public class ApplicationForm extends AppCompatActivity {
     private  TextInputEditText et_height,et_weight,
             et_more_details,et_medication,et_num_children;
