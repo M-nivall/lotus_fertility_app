@@ -51,8 +51,6 @@ public class AdapterSurrogates extends RecyclerView.Adapter<RecyclerView.ViewHol
     private AdapterSurrogates.OnItemClickListener mOnItemClickListener;
     private AdapterSurrogates.OnMoreButtonClickListener onMoreButtonClickListener;
 
-    //
-
     private SessionHandler session;
     private UserModel user;
     private String clientId = "";
