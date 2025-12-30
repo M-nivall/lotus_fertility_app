@@ -223,6 +223,7 @@ public class AdapterSearch extends RecyclerView.Adapter<RecyclerView.ViewHolder>
 //        dialog.show();
 //
 //    }
+
     public void addToCart(){
         final String itemQty = quantity.getText().toString().trim();
         StringRequest stringRequest = new StringRequest(Request.Method.POST, Urls.URL_ADD_CART,
