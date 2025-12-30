@@ -51,8 +51,6 @@ public class AdapterSearch extends RecyclerView.Adapter<RecyclerView.ViewHolder>
     private AdapterSearch.OnItemClickListener mOnItemClickListener;
     private AdapterSearch.OnMoreButtonClickListener onMoreButtonClickListener;
 
-    //
-
     private SessionHandler session;
     private UserModel user;
     private String clientId = "";
