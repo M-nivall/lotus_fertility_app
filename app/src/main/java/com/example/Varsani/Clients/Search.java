@@ -152,7 +152,6 @@ public class Search extends AppCompatActivity {
         requestQueue.add(stringRequest);
     }
 
-
     @Override
     public void onBackPressed() {
         Intent i = new Intent(this, MainActivity.class);
