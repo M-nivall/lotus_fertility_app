@@ -83,6 +83,7 @@ public class Login extends AppCompatActivity {
                 select(v);
             }
         });
+
         txv_staffLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
