@@ -29,9 +29,6 @@ public class AdapterInvoices extends RecyclerView.Adapter<RecyclerView.ViewHolde
     ProgressDialog progressDialog;
 //    private OnItemClickListener mOnItemClickListener;
 //    private OnMoreButtonClickListener onMoreButtonClickListener;
-
-    //
-
     private SessionHandler session;
     private UserModel user;
     private String clientId = "";
