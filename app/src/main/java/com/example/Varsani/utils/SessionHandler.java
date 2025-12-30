@@ -31,7 +31,6 @@ public class SessionHandler {
         mPreferences = mContext.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE);
         this.mEditor = mPreferences.edit();
     }
-
     /**
      * Logs in the user by saving user details and setting session
      *
